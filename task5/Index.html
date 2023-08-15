@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box</title>
+    <style>
+        .container {
+            width: 1250px;
+            margin: auto;
+            overflow: hidden;
+            font-family: cursive;
+        }
+        .about-content {
+            width: 1200px;
+            border: 2px solid black;
+            text-align: center;
+            padding: 20px;
+        }
+        .box-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .content {
+            float: left;
+            width: 25%;
+            border-collapse: separate;
+            border-spacing: 15px;
+            border: 2px solid black;
+            padding: 20px;
+            text-align: center;
+            margin:15px;
+            box-sizing: border-box;
+        }
+        h3 {
+            font-size: 18px;
+        }
+        p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="about-content">
+            <h3>About Websites</h3>
+        </div>
+        <div class="box-container">
+            <div class="content">
+                <h3>GOOGLE</h3>
+                <p>Google is an American multinational technology company...</p>
+                <p><a href="https://www.google.com" target="_blank">Google</a></p>
+            </div>
+            <div class="content">
+                <h3>YOUTUBE</h3>
+                <p>YouTube is an American online video sharing and social media...</p>
+                <p><a href="https://www.youtube.com" target="_blank">YouTube</a></p>
+            </div>
+            <div class="content">
+                <h3>WHATSAPP</h3>
+                <p>WhatsApp is a freeware, cross-platform, centralized instant messaging...</p>
+                <p><a href="https://www.whatsapp.com" target="_blank">WhatsApp</a></p>
+            </div> 
+            <div class="content">
+                <h3>Chat GPT</h3>
+                <p>ChatGPT, which stands for Chat Generative Pre-trained Transformer...</p>
+                <p><a href="https://chat.openai.com" target="_blank">ChatGPT</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
